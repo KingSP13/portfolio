@@ -1,51 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Portfólio - Igor Oliveira.</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Igor Oliveira</title>
+    <link href="estiloportfolio.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="shortcut icon" href="favicon.ico" class="favicon" type="image/x-icon">
 </head>
 <body>
-    <header>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <div>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <img src="img.dev.ico" height="35px" width="35px">
-                        <a class="navbar-brand" href="img.dev.ico">Home</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre Mim</a>
-                    </li>
-                    </ul>
+    <nav class="navbar navbar-expand-lg fixed-top "> 
+        <a class="navbar-brand" href="#">Início</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSup" aria-controls="navbarSup" aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse " id="navbarSup">
+            <ul class="navbar-nav mr-4">
+            <li class="nav-item">
+                <a class="nav-link" data-value="sobrenos" href="#">Sobre Nós</a>        </li> 
+        <li class="nav-item">
+            <a class="nav-link " data-value="servico"href="#">Serviços</a>   
+            </li>
+            <li class="nav-item">
+            <a class="nav-link " data-value="noticia" href="#">Notícias</a>         </li>  
+        <li class="nav-item"> 
+            <a class="nav-link " data-value="equipe" href="#">Equipe</a>       </li> 
+        <li class="nav-item">
+                <a class="nav-link " data-value="contato" href="#">Contato</a>       
+            </li>
+        </ul>
+       </div>
+    </nav>
+    <div class="noticia">
+        <div class="container">
+            <h1 class="text-center">Este Portfolio apresenta meus conhecimentos como Programador Web</h1>
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Div 1 Teste</h5>
+                        <p class="card-text">Texto que vai no cartão quase sempre pra servir de introdução a acão do botão abaixo.</p>
+                        <a href="#" class="btn btn-primary">Botão.</a>
                     </div>
+                  </div>
                 </div>
-              </nav>
-            <div class="container-fluid">
-                <h1>Igor Oliveira Lima - Front-End Dev</h1>
-              </a>
+                <div class="col-md-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Div 2 Teste</h5>
+                      <p class="card-text">Texto que vai no cartão quase sempre pra servir de introdução a acão do botão abaixo.</p>
+                      <a href="#" class="btn btn-primary">Botão.</a>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title">Div 3 Teste</h5>
+                      <p class="card-text">Texto que vai no cartão quase sempre pra servir de introdução a acão do botão abaixo.</p>
+                      <a href="#" class="btn btn-primary">Botão.</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </nav>
-          
+        </div>
     </div>
 
-
-    <h2>Este site é um exemplo de aplicação dos meus conhecimentos como programador.</h2>
-
-    
-</header>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
