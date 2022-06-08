@@ -16,25 +16,25 @@
 .navbar-toggler{  
     background:#fff 
 }
-.noticia{
+.mainTitle{
 margin: 4em 0;
 position: relative;
 }
-.noticia.h1{
+.mainTitleh1{
 color: #35348f57;
 margin: 2em;
 }
-.noticia.card{
+.mainTitlenoticia.card{
 box-shadow: 0 0 20px #ccc;
 }
-.noticia.card.img{
+.mainTitlenoticia.card.img{
 width: 100%;
 height: 12em;
 }
-.noticia.card-title{
+.mainTitle.card-title{
 color:#F97300;
 }
-.noticia .card-body{
+.mainTitle.card-body{
 padding: 1em;
 
 }
