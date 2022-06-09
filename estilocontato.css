@@ -1,0 +1,40 @@
+.navbar{ 
+    background:#000000;
+}
+.nav-link,.navbar-brand{ 
+    color: #f4f4f4; cursor: pointer;
+}
+.nav-link{ 
+    margin-right: 1px
+}
+.nav-link:hover{ 
+    background: #bebebe57; color: #000000; 
+}
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+.navbar-toggler{  
+    background:#fff 
+}
+.mainTitle{
+margin: 4em 0;
+position: relative;
+}
+.mainTitleh1{
+color: #35348f57;
+margin: 2em;
+}
+.mainTitlenoticia.card{
+box-shadow: 0 0 20px #ccc;
+}
+.mainTitlenoticia.card.img{
+width: 100%;
+height: 12em;
+}
+.mainTitle.card-title{
+color:#F97300;
+}
+.mainTitle.card-body{
+padding: 1em;
+
+}
