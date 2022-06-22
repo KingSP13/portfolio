@@ -18,7 +18,6 @@
 }
 
 body {
-    max-width: 100%;
     min-width: 300px;
     background: white;
     
@@ -31,28 +30,111 @@ body {
     justify-content: space-around;
     width: 100%;
     padding: 15px;
+    
 }
 main section {
     height: 300px;
-    padding: 150px 0px 0px 200px;
+    padding-top: 12%;
+    padding-left: 15%;
     margin:0%;
 }
     
 .hello {
-    font-family: 'moralist sans', 'cursive', 'Times New Roman', Times, serif;
-    color: #1DF2F2;
+    font-family: 'moralist sans', 'cursive';
+    color: #ff3c00;
+    letter-spacing: 0.4rem;
+    font-size: 3rem;
 }
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    align-self: center;
-}
+
 blockquote{
     display: flex;
     justify-content: center;
     max-width: 100%;
     padding: 50px;
     margin: 0%;
-    font-family: 'moralist sans';
-    color: #1DF2F2;
-    position: absolute bottom;
+    font-family: 'arial';
+    color: #ff3c00;
+    font-style: 400;
+    font-size: 1rem;
+
+}
+.outdoor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+    max-width: 450px;
+    max-height: 350px;
+    min-width: 450px;
+    min-height: 350px;
+}
+
+.tituloProjeto {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-family: 'moralist sans', 'cursive', 'sans serif';
+    padding: 2%;
+}
+.explanation {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 60%;
+    padding-top: 2%;
+    padding-right: 20%;
+    padding-left: 20%;
+    
+}
+
+.projeto1 {
+    color: #242226;
+    min-width: 300px;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 750px;
+    width: 100%;
+    background-color: #ff3c00;
+    margin-top: 10%;
+}
+
+
+.projeto2 {
+    color: #242226;
+    min-width: 300px;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 750px;
+    width: 100%;
+    background-color: #ff3c00;
+    margin-top: 10%;
+
+}
+
+.projeto3 {
+    color: #242226;
+    min-width: 300px;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 750px;
+    width: 100%;
+    background-color: #ff3c00;
+    margin-top: 10%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+footer a {
+    color: #ff3c00;
+    font-family: Arial, Helvetica, sans-serif;
 }
