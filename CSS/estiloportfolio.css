@@ -33,7 +33,7 @@ body {
 .navigation {
     display: flex;
     justify-content: space-evenly;
-    max-width: 575px;
+    max-width: 600px;
     width: 100%;
     padding-top:  10px;
     font-family: 'moralist sans', 'cursive';
@@ -46,14 +46,14 @@ a {
 }
 .hover:hover {
     background-color: white;
-    transition-duration: .3s;
+    transition-duration: .2s;
     color: #ff3c00;
     border-radius: 6px;
     padding: 5px;
 }
 .navigation :first-child {
     padding-right: 1em;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 main section {
     display: flex;
