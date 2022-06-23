@@ -23,19 +23,18 @@ body {
 .navbar {
     max-width: 100%;
     min-width: 360px;
-    max-height: 90px;
-    min-height: 55px;
+    height: 41px;
     background-color: #ff3c00;
     box-shadow: 0px 1px 11px;
 }
 .navigation {
     display: flex;
     justify-content: space-between;
-    max-width: 600px;
     min-width: 360px;
-    padding-top:  15px;
+    max-width: 600px;
+    padding-top:  10px;
     font-family: 'moralist sans', 'cursive';
-    font-size: 1.3em;
+    font-size: 1.19em;
     box-sizing: content-box;
 }
 a {
@@ -48,9 +47,6 @@ a {
     color: #ff3c00;
     border-radius: 6px;
     padding: 6px;
-}
-.hover {
-    min-width: 100px;
 }
 .navigation :first-child {
     padding-right: .3em;
