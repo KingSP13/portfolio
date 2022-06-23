@@ -1,40 +1,94 @@
-.navbar{ 
-    background:#000000;
+@charset "UTF-8";
+@font-face {
+    font-family: 'moralist sans';
+    src: url('Moralist Sans.otf') format('opentype') ;
+    font-weight: normal;
+    font-style: normal;
 }
-.nav-link,.navbar-brand{ 
-    color: #f4f4f4; cursor: pointer;
+
+:root {
+    --cor0 : #242226;
+    --cor1 : #1DF2F2;
+    --cor2 : #F24452;
+    --cor3 : #41D958;
+    --cor4 : #75D959;
 }
-.nav-link{ 
-    margin-right: 1px
+* {
+    margin: 0px;
 }
-.nav-link:hover{ 
-    background: #bebebe57; color: #000000; 
+body {
+    min-width: 320px;
 }
-.navbar-collapse{ 
-    justify-content: flex-end;
+.navbar {
+    margin: auto;
+    max-width: 100%;
+    min-width: 320px;
+    max-height: 100px;
+    min-height: 50px;
+    background-color: #ff3c00;
+    box-shadow: 0px 1px 11px; 
 }
-.navbar-toggler{  
-    background:#fff 
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 575px;
+    width: 100%;
+    padding-top:  10px;
+    font-family: 'moralist sans', 'cursive';
+    font-size: 1.5em;
+    color: #242226;
 }
-.mainTitle{
-margin: 4em 0;
-position: relative;
+a {
+    text-decoration: none;
+    color: white;
 }
-.mainTitleh1{
-color: #35348f57;
-margin: 2em;
+.hover:hover {
+    background-color: white;
+    transition-duration: .3s;
+    color: #ff3c00;
+    border-radius: 6px;
+    padding: 5px;
 }
-.mainTitlenoticia.card{
-box-shadow: 0 0 20px #ccc;
+.navigation :first-child {
+    padding-right: 1em;
+    padding-left: 20px;
 }
-.mainTitlenoticia.card.img{
-width: 100%;
-height: 12em;
+main section {
+    height: fit-content;
+    margin:0%;
 }
-.mainTitle.card-title{
-color:#F97300;
+
+.tituloProjeto {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-family: 'moralist sans', 'cursive', 'sans serif';
+    padding: 2%;
 }
-.mainTitle.card-body{
-padding: 1em;
+.outdoor {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.explanation {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 60%;
+    padding-top: 2%;
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: center;
+}
+
+.divProjeto {
+    color: #242226;
+    min-width: 320px;
+    max-width: 100%;
+    font-family: 'moralist sans', 'cursive';
+    font-size: 1rem;
+    width: 100%;
+    padding-top: 10%;
 
 }

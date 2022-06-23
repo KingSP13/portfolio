@@ -1,68 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outros Projetos</title>
-    <link href="estiloprojeto.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="favicon.ico" class="favicon" type="image/x-icon">
-    <link href="index.js" rel="actions">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos - Igor Oliveira</title>
+  <link type="image/x-icon" rel="icon" href="../Imagens/favicon.ico">
+  <link type="text/css" rel="stylesheet" href="../CSS/estiloprojeto.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top "> 
-        <a class="navbar-brand" href="index.html">Início</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSup" aria-controls="navbarSup" aria-expanded="false" aria-label="Toggle navigation"> 
-        <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse " id="navbarSup">
-            <ul class="navbar-nav mr-4">
-        <li class="nav-item">
-            <a class="nav-link" data-value="sobremim" href="sobremim.html">Sobre Mim</a>        </li> 
-        <li class="nav-item">
-            <a class="nav-link" data-value="contato" href="contato.html">Contato</a>        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-value="outrosprojetos" href="projetos.html">Outros Projetos</a>        </li> 
-        </ul>
-       </div>
-    </nav>
-    <div class="mainTitle">
-        <div class="container">
-            <h2 class="text-center">Este Portfolio apresenta meus conhecimentos como Programador Web</h2>
-            <div class="row">
-                <div class="col-md-4">
-                  <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Sonic em Pixel Art</h5>
-                        <p class="card-text">Criei este modelo em Pixel Art do personagem Sonic utilizando HTML e CSS.</p>
-                        <a href="sonic.html" target="_blank" class="btn btn-primary">Visitar</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Calculadora</h5>
-                      <p class="card-text">Exemplo de calculadora criada com HTML, CSS e JavaScript.</p>
-                      <a href="calculadora.html" class="btn btn-primary">Visitar</a>
-                    </div>
-                  </div>
-                </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-body">
-                      <h5 class="card-title">Projeto Back-end</h5>
-                      <p class="card-text">Estou desenvolvendo um projeto pra ocupar este lugar nesse exato momento.</p>
-                      <a href="#" class="btn btn-primary">Botão.</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
+  <header>
+    <div class="navbar">
+      <nav class="navigation">
+          <div>
+            <a href="../index.html"> <span class="hover">  Home  </span>  </a>
+          </div>
+          <div>
+            <a href="HTML/projetos.html"> <span class="hover"> Meus Projetos  </span>  </a>
+          </div>
+          <div>
+            <a href="#"> <span class="hover">  Sobre Mim  </span>  </a>
+          </div>
+      </nav>
     </div>
+  </header>
+  <main>
+    <section class="projetos">
+      <div class="divProjeto">
+        <h1 class="tituloProjeto">Landing Page</h1>
+        <picture class="outdoor">
+          <source media="(max-width: 600px)" srcset="../Imagens/emptybox-sm.jpg">
+          <img src="../Imagens/emptybox.jpg">
+        </picture>
+        <p class="explanation">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, cum. Iste eum in perferendis molestias ullam incidunt illo praesentium! Debitis voluptates provident quae sunt delectus, atque sed illo accusantium voluptatibus?
+          Rerum laudantium quos commodi debitis consequuntur sed ex assumenda necessitatibus. Maiores quia vitae iste fugit iusto animi porro, enim aut cumque perferendis nemo adipisci laudantium veniam repudiandae sunt, inventore nam!
+          Non ratione provident doloremque distinctio eveniet sint, consequatur esse eaque adipisci facere expedita a aperiam minima nobis modi. Hic veniam nihil, ea dicta quae soluta quia quidem aliquam delectus quos.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, cum. Iste eum in perferendis molestias ullam incidunt illo praesentium! Debitis voluptates provident quae sunt delectus, atque sed illo accusantium voluptatibus
+        </p>
+      </div>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <div class="divProjeto">
+        <h1 class="tituloProjeto">Calculadora</h1>
+        <a href="HTML/calculadora.html" target="_blank">
+          <picture class="outdoor">
+            <source media="(max-width: 600px)" srcset="../Imagens/calculadora-sm.jpg">
+            <img src="../Imagens/calculadora.jpg">
+          </picture>
+        </a>
+        <p class="explanation">
+          Realizei esse projeto com aplicações de HTML, CSS e JavaScript pra responder aos cliques e efetuar as operações matemáticas com uso de operadores no código.
+        </p>
+      </div>
+
+      <div class="divProjeto">
+        <h1 class="tituloProjeto">Clone Disney.com</h1>
+        <picture class="outdoor">
+          <source media="(max-width: 600px)" srcset="../Imagens/emptybox-sm.jpg">
+          <img src="../Imagens/emptybox.jpg">
+        </picture>
+        <p class="explanation">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, cum. Iste eum in perferendis molestias ullam incidunt illo praesentium! Debitis voluptates provident quae sunt delectus, atque sed illo accusantium voluptatibus?
+          Rerum laudantium quos commodi debitis consequuntur sed ex assumenda necessitatibus. Maiores quia vitae iste fugit iusto animi porro, enim aut cumque perferendis nemo adipisci laudantium veniam repudiandae sunt, inventore nam!
+          Non ratione provident doloremque distinctio eveniet sint, consequatur esse eaque adipisci facere expedita a aperiam minima nobis modi. Hic veniam nihil, ea dicta quae soluta quia quidem aliquam delectus quos.
+        </p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

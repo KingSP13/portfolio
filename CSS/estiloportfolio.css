@@ -14,27 +14,51 @@
     --cor4 : #75D959;
 }
 * {
-    margin: 0%;
+    margin: 0px;
 }
 
 body {
     min-width: 320px;
-    background: white;
     
 }
-.mainSocial {
+.navbar {
     margin: auto;
-    max-width: 800px;
+    max-width: 100%;
     min-width: 320px;
+    max-height: 100px;
+    min-height: 50px;
+    background-color: #ff3c00;
+    box-shadow: 0px 1px 11px;
+}
+.navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    max-width: 575px;
     width: 100%;
-    padding-top: 1rem;
-
-    
+    padding-top:  10px;
+    font-family: 'moralist sans', 'cursive';
+    font-size: 1.5em;
+    color: #242226;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.hover:hover {
+    background-color: white;
+    transition-duration: .3s;
+    color: #ff3c00;
+    border-radius: 6px;
+    padding: 5px;
+}
+.navigation :first-child {
+    padding-right: 1em;
+    padding-left: 20px;
 }
 main section {
-    height: 300px;
+    display: flex;
+
+    height: 350px;
     padding-top: 12%;
     padding-left: 15%;
     margin:0%;
@@ -58,72 +82,6 @@ blockquote{
     font-style: 400;
     font-size: 1rem;
 
-}
-
-.projetos {
-    background-color: #ff3c00;
-}
-
-.tituloProjeto {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    font-family: 'moralist sans', 'cursive', 'sans serif';
-    padding: 2%;
-}
-.outdoor {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-    height: auto;
-}
-
-.explanation {
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 60%;
-    padding-top: 2%;
-    padding-right: 20%;
-    padding-left: 20%;
-    text-align: center;
-}
-
-.projeto1 {
-    color: #242226;
-    min-width: 300px;
-    max-width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    height: fit-content;
-    width: 100%;
-    background-color: #ff3c00;
-    margin-top: 10%;
-}
-
-
-.projeto2 {
-    color: #242226;
-    min-width: 300px;
-    max-width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    height: fit-content;
-    width: 100%;
-    background-color: #ff3c00;
-    margin-top: 10%;
-
-}
-
-.projeto3 {
-    color: #242226;
-    min-width: 300px;
-    max-width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    height: fit-content;
-    width: 100%;
-    background-color: #ff3c00;
-    margin-top: 10%;
 }
 
 
