@@ -1,0 +1,106 @@
+simplificando operadores aritméticos
+
+
+var n = 3
+n = n + 4	n += 4
+n = n - 5	n -+ 5
+n = n * 4	n *= 4
+n = n / 2	n /= 2
+n = n **2	n **= 2
+n = n % 5	n %= 5
+
+OPERADORES DE INCREMENTO
+
+++	--
+var x = 2
+x++ = 3
+
+Caso mais de um operador aritmético seja usado na mesma expressão, a ordem de execução é a seguinte:
+
+() > ** > /
+> < >= -NÃO TENM ORDEM DE PRECEDÊNCIA EM OPERADORES RELACIONAIS
+
+
+OPERADORES RELACIONAIS
+
+! (não) - Negação (Para qualquer condição exceto... ! )
+&& (e) - Conjunção (Para todas as condições, em ambos os lados da operação &&)
+|| (ou) - Disjunção (Para qualquer uma das operações em ambos os lados || )
+
+No caso de uso de operadores aritmeticos, relacionais e lógicos
+a Ordem a ser seguida é: ARITMÉTICOS > RELACIONAIS > LÓGICOS
+
+Caso mais de um operador seja usado na mesma expressão, a ordem de execução é sempre: NÃO, E e OU.
+! > && > ||
+
+OPERADORES TERNÁRIOS:
+
+? e : - DENTRO DA MESMA EXPRESSÃO
+
+Molde padrão: "teste ? true : false"
+
+Chama-se ternário por ser composto de três partes, tendo o bloco de testes, bloco verdadeiro e bloco falso.
+Teste lógico retornando verdadeiro ou falso, sendo o primeiro bloco o objeto ou componente a ser processado, o segundo bloco levando o processo a ser executado caso o resultado seja verdadeiro e o tercceiro bloco indica o que acontece caso o resultado seja falso.
+
+EXEMPLO: 
+> var finalScore = 0
+undefined
+> finalScore += 500
+500
+> finalScore >= 400?"Congrats":"You Failed"
+'Congrats'
+
+EXEMPLO 2:
+> var x = 8
+undefined
+> var res = x % 2 == 0?5:9
+undefined
+> x
+8
+> res
+5
+
+
+
+
+Utilizando o DOM :
+
+Document Object Model
+
+Exemplo de código:
+
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <div>
+        <p>
+            Aqui vai o resultado
+        </p>
+        <p>
+            Aprendendo a usar <strong>DOM</strong>
+        </p>
+        <p>
+            Clique em mim.
+        </p>
+    </div>
+    <script>
+        var p1 = document.getElementsByTagName('p')[1]
+        document.write('Meu elemento P1 contém = '+ p1.innerText)
+        document.body.style.background = 'grey'
+        p1.style.color = 'lightgreen'
+    </script>
+</body>
+
+Esquema de mapa:
+
+window:
+	location
+
+					  ----- title
+				---- head ----- meta	
+	document ------ html 
+					
+			     	---- body -----h1
+					  -----p
+					  -----p -----strong
+					  -----div
+	history
