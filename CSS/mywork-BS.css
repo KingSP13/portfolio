@@ -1,0 +1,25 @@
+img {
+    border-radius: 1rem;
+    width: 450px;
+    height: 250px;
+    margin: auto;
+}
+.conteinerR {
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 4rem 0rem;
+}
+.content {
+    height: 100%;
+    width: 150%;
+}
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projects > p {
+    margin: 1rem 0px;
+    text-align: center;
+}

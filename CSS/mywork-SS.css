@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img {
+    width: 23rem;
+    height: auto;
+    border-radius: 1em;
+    margin: 0 auto 1rem;
+}
+.projects > p {
+    margin-top: 2.5rem;
+    text-align: justify;
+    box-sizing: border-box;
+    height: fit-content;
+}

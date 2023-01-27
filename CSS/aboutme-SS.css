@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 70%;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+    border-radius: 5rem;
+}
+article {
+    height: fit-content;
+    padding-bottom: 12vh;
+}
