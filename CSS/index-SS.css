@@ -31,7 +31,7 @@ ul {
 .content {
     position: absolute;
     padding-top: 3rem;
-    margin: 3rem;
+    margin: 6vh 2vw;
     height: 72vh;
     width: 93vw;
     text-align: justify;
@@ -95,4 +95,7 @@ i {
 }
 footer {
     display: none;
+}
+.project1 {
+    margin-bottom: 2vh;
 }
