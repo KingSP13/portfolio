@@ -32,10 +32,12 @@ ul {
     position: absolute;
     padding-top: 3rem;
     margin: 6vh 2vw;
-    height: 72vh;
+    height: 90vh;
     width: 93vw;
     text-align: justify;
     z-index: -1;
+    flex-wrap: wrap;
+    padding-bottom: 8rem;
 }
 #navigation {
     list-style-type: none;
